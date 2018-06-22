@@ -8,9 +8,9 @@ function Rocket(l, dna_, totalRockets) {
   this.velocity = createVector(0, 0);
   this.position = l.copy();
   // Size
-  this.r = 4;
+  this.r = 1;
   // Fitness and DNA
-  this.fitness = 0;
+  this.fitness = 8;
   // To count which force we're on in the genes
   this.geneCounter = 0;
   this.dna = dna_;
